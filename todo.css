@@ -1,0 +1,68 @@
+
+body{
+    background-color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input input,.input button{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    margin-left: 35px;
+}
+
+.input button{
+    min-width: 5%;
+}
+.head,.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+.todo {
+    margin: 0.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.todo li{
+    flex: 1;
+}
+.trash-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+.complete-btn {
+    background-color: cyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+.todo-item {
+    padding-left: 10px;
+    }
+.completed {
+    text-decoration: line-through;
+
+}
+.fa-check{
+    pointer-events: none;
+
+}
